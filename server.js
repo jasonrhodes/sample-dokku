@@ -13,5 +13,5 @@ app.get('/env', function(req, res) {
 });
 
 app.listen(process.env.PORT || 9999, function() {
-  console.log(`App listening on port ${process.env.PORT}`);
+  console.log(`App listening on port ${process.env.PORT || 9999}`);
 });
